@@ -1,0 +1,44 @@
+.about-container{
+    padding-top: 8rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.about-heading{
+    font-size: 2.5rem;
+    font-weight: inherit;
+    margin: 0;
+}
+
+.about-text{
+    color: white;
+    padding-top: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    font-size: px;
+    
+}
+
+@media (min-width:768px) {
+    .about-heading {
+        font-size: 3rem;
+    }
+    .about-text {
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-eidth:768px) {
+    .about-heading{
+        font-size: 1.875rem;
+    }
+    .about-text {
+        font-size: 1rem;
+    }
+    .about-container {
+        padding-top: 6rem;
+    }
+}

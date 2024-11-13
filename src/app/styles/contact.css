@@ -1,0 +1,90 @@
+.contact-container{
+    padding-top: 8rem;
+    max-width: 1280px;
+    margin:0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+}
+
+.contact-grid{
+    display: grid;
+    gap: 2.5rem;
+}
+
+@media (min-width: 760px) {
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.contact-heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    margin:0;
+}
+
+.contact-text{
+    color: white;
+    font-size: 1.2rem; /* Added 'rem' unit here */
+    padding-top: 0.5rem;
+    line-height: 1.5;
+    margin:0;
+}
+
+.contact-flex{
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.contact-space{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+   
+   
+}
+
+.input-field, .textarea-field {
+    background-color: transparent;
+    border: 1px solid #08E95E;
+    padding: 0.5rem;
+    border-radius: none;
+    border-color: #08E95E;
+}
+
+.textarea-field{
+    resize: vertical;
+    height: auto;
+    min-height: 150px;
+}
+
+.button{
+    width: fit-content;
+    background-color: #08E95E;
+    color: white;
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 100%; /* Corrected the colon here */
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    border: none;
+    cursor: pointer;
+    border-radius: none;
+    transition: background-color 0.3s ease; /* Fixed the transition timing function */
+}
+
+.button:hover{
+    background-color: #555;
+}

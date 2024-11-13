@@ -1,0 +1,73 @@
+.hero-container {
+    min-height: 100vh; /* Corrected from min-width to min-height */
+    background: no-repeat url('/my_pic.png');
+    background-size: 20%;
+    background-position: left 250px top 200px;
+}
+
+.hero-content {
+    display: grid;
+    height: calc(100vh - 60px);
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-text {
+    line-height: 1.25;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column; /* Ensures each line stacks vertically */
+    justify-content: right;
+    align-items: flex-start; /* Aligns text to the left for a natural reading order */
+    color: teal;
+    font-size: 4rem;
+    text-align: left; /* Ensures text is aligned left within each line */
+    padding-top: 10rem;
+    padding-left: 3.5rem;
+    
+    
+}
+
+.hero-text span {
+    display: block; /* Forces each word or phrase in a <span> onto a new line */
+}
+
+
+.hero-main p { /* Fixed typo from hero-msin to hero-main */
+    margin: 0;
+}
+
+.hidden-lg {
+    display: none;
+}
+
+@media (max-width: 1024px) { /* Fixed media query syntax */
+    .hero-container {
+        background-size: 50%;
+        background-position: center;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+
+    .hero-text {
+        font-size: 3rem;
+        padding-top: 20rem;
+       
+        
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-content {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .hidden-lg {
+        display: block;
+    }
+}
+

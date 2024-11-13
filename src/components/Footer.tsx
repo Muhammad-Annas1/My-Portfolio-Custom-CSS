@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import '../app/styles/footer.css';
 
 const Footer = () => {
   return (
-    <div className='mt-16 py-6 text-center bg-teal-400'>
-      &copy; 2024 Muhammad Annas | All Rights Reserved.
-
+    <div className="footer">
+      &copy; 2024 Muhammad Annas | All Rights Reserved
+    
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
