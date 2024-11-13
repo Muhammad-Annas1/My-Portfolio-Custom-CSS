@@ -36,9 +36,8 @@ const data = [
 
 const Project = () => {
   return (
-    <div id='Projects' className='projects-container '>
-      <h1 data-aos="zoom-in" >  My Projects
-        </h1>
+    <div id='Projects' className='projects-container'>
+      <Heading title="My Projects"  />
       <div className="projects-grid">
         {data.map((el) => (
           <Card

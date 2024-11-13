@@ -13,7 +13,7 @@ const Contact = () => {
             Get in touch
           </h2>
           <p className="contact-text" data-aos="zoom-in">
-            I'm always open to new opportunities and collaborations! If you have any questions, suggestions, or would like to connect, feel free to reach out. You can fill out the contact form, or drop me a message. I look forward to hearing from you!
+            I&apos;m always open to new opportunities and collaborations! If you have any questions, suggestions, or would like to connect, feel free to reach out. You can fill out the contact form, or drop me a message. I look forward to hearing from you!
           </p>
 
           <div className="contact-flex" data-aos="zoom-in">
